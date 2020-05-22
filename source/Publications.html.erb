@@ -1,0 +1,55 @@
+---
+title: "James W. Davis: Publications"
+css: stylesheets/pub.css
+---
+
+<%# File Created on 2/28/2020 by Ern Chi Khoo %>
+
+<% require_relative '../rubyfiles/PublicationsWebScraping.rb' %>
+<% require 'mechanize' %>
+<% require 'nokogiri' %>
+<% items = get_items %>
+
+
+<div id="header">
+	<h1 id="title">Publications</h1>
+</div>
+
+<br>
+
+<div class="card">
+	<div class="container">
+		<div class="pub-titles">
+			<a href="http://web.cse.ohio-state.edu/~davis.1719/Publications/Astar-CACM.pdf" target="_blank"><%= items[0][0] %></a>
+		</div>
+		<p><%= items[0][1] + " " + items[0][2] %>
+		<br>Communications of the ACM, January 2020, Vol. 63, No. 1, pp. 36-37.</p>
+	</div>
+</div>
+<%# Skip first element because that element has a different html structure %>
+<% items.drop(1).each do |item| %>
+	<div class="card">
+		<div class="container">
+			<%# Certain items do not have links %>
+			<div class="pub-titles">
+				<% unless item[3] == "" %>
+					<%# Link that is not under the same directory as the other links %>
+					<% if item[0] == "\"Audiomere: Polarity Maximizer\" [2015-2017]" %>
+						<%= link = "<a href=\"https://www.audiomere.com/\" target=\"_blank\">" %>
+							<%= item[0] %>
+						</a>
+					<% else %>
+						<%# All other links are in the same directory %>
+						<%= link = "<a href=\"http://web.cse.ohio-state.edu/~davis.1719/" + item[3] + "\" target=\"_blank\">" %>
+							<%= item[0] %>
+						</a>
+					<% end %>
+				<% else %>
+					<p><%= item[0] %></p>
+				<% end %>
+			</div>
+			<p><%= item[1] %>
+			<br><%= item[2] %></p>
+		</div>
+	</div>
+<% end %>

@@ -1,0 +1,16 @@
+This is the test explanation for the Teaching Page of the website.
+
+To implement teaching, I used a ruby file for web scraping and an erb file for using Ruby code within my html code.
+The ruby code is in rubyfiles/TeachingWebScraping.rb and the erb file is in source/teaching.html.erb
+
+In order to test if my Ruby functions worked. I printed out the results of the functions to the console to see if I was
+getting the part of the source code that I wanted. I compared the console output to the source code from Jim Davis'
+website. Once I was satisfied I was getting the correct part of the webpage, I moved on to the HTML code.
+
+I tested the HTML code visually to make sure it was doing everything I wanted it to do. The first thing I checked
+was if all the years and courses aligned with the teaching page on the original website. Then, I went through the CSS
+code and verified if all of the rules I set were being reflected in the webpage. Once everything looked like I was
+expecting it to, I tested to make sure the navbar link to the page worked without issue and came to the correct page.
+
+Finally, to make sure my final build HTML code was correct, I went to the W3 Validator and uploaded my HTML file.
+Once that came back with no errors or warnings, I completed my testing of the teaching portion of the website.

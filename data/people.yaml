@@ -1,0 +1,180 @@
+
+# Project 4 - Groovy Ruby
+# people.yaml
+# Data file for People.html.erb
+# File created 2/28/2020 by Juhee Park
+
+#Current students have name and type(degree)
+current:
+  - name: "Tong Liang"
+    type: "Ph.D. student"
+
+  - name: "Logan Frank"
+    type: "M.S./Ph.D. student"
+
+  - name: "Ash Radhakrishnan"
+    type: "M.S./Ph.D. student"
+
+  - name: "Jamie Cunningham"
+    type: "B.S./M.S. student"
+
+  - name: "James Enouen"
+    type: "B.S. student"
+
+  - name: "Isaac Zachmann"
+    type: "B.S. student (ECE)"
+
+# Alumni has name and type(degree).
+# Some have description and current workplace
+alumni:
+  - name: "Joe Barker"
+    type: "Ph.D. student"
+    descr: ~
+    now: ~
+
+  - name: "Sam Lerner"
+    type: "B.S./M.S. student"
+    descr: ~
+    now: ~
+
+  - name: "Chris Menart"
+    type: "M.S. student"
+    descr: "M.S. Thesis: \"Global-Context Refinement for Semantic Image Segmentation\", 2018"
+    now: "AFRL"
+
+  - name: "Debanjan Nandi"
+    type: "M.S. student"
+    descr: ~
+    now: ~
+
+  - name: "Mo Akbar"
+    type: "B.S./M.S. student"
+    descr: ~
+    now: ~
+  
+  - name: "Josh Sandvick"
+    type: "B.S./M.S. student"
+    descr: "M.S. Thesis: \"Machine Translation Through the Creation of a Common Embedding Space\", 2018"
+    now: ~
+
+  - name: "Brett Whitford"
+    type: "B.S. student"
+    descr: "B.S. Honor's Thesis: \"Weakly Supervised Learning for Semantic Segmentation\", 2018."
+    now: ~
+
+  - name: "Chuhan Feng"
+    type: "B.S. student"
+    descr: ~
+    now: ~
+
+  - name: "Rohith Savaram"
+    type: "M.S. student"
+    descr: "M.S. Project, May 2016."
+    now: "Expedia"
+
+  - name: "Dan Marchese"
+    type: "B.S. student"
+    descr: "B.S. Honor's Thesis: \"A Framework for Using Custom Features to Colorize Grayscale Image\", May 2016."
+    now: "Amazon"
+
+  - name: "Manjari Akella"
+    type: "M.S. student"
+    descr: "M.S. Project, May 2015."
+    now: "IBM"
+
+  - name: "Jeremy Ledonne"
+    type: "B.S. student"
+    descr: "Undergraduate resesarch assistant. Graudated 2015."
+    now: ~
+
+  - name: "Daniya Zamalieva"
+    type: "Ph.D. student"
+    descr: "Ph.D. Thesis: \"Transformational Models for Background Subtraction with Moving Cameras\", September 2014."
+    now: "Google"
+
+  - name: "Ryan Niemocienski"
+    type: "B.S. student"
+    descr: "Undergraduate resesarch assistant, 2013-2014."
+    now: ~
+
+  - name: "Kyle Salberg"
+    type: "B.S. student"
+    descr: "Undergraduate resesarch assistant. Graduated June 2012."
+    now: ~
+
+  - name: "Michael Schoenberg"
+    type: "B.S. student"
+    descr: "Undergraduate resesarch assistant. Graduated June 2012."
+    now: "Microsoft"
+
+  - name: "Ronak Buch"
+    type: "B.S. student"
+    descr: "Undergraduate resesarch assistant. Graduated June 2012."
+    now: "UIUC"
+
+  - name: "Kevin Streib"
+    type: "Ph.D. student and Post-Doc"
+    descr: "Ph.D. Thesis: \"Improved Graph-based Clustering with Applications in Computer Vision and Behavior Analysis\", March 2012."
+    now: ~
+  
+  - name: "Karthik Sankaranarayanan"
+    type: "Ph.D. student"
+    descr: "Ph.D. Thesis: \"Multiple Instance Learning for Localization and Tracking of Persistent Targets\", August 2011."
+    now: "IBM India"
+
+  - name: "Ryan Feather"
+    type: "M.S. student"
+    descr: "M.S. Thesis: \"Tracking and Activity Analysis in Wide Area Aerial Surveillance Video\", August 2011."
+    now: ~
+
+  - name: "Matt Nedrich"
+    type: "M.S. student"
+    descr: "M.S. Thesis: \"Detecting Behavioral Zones in Local and Global Camera Views\", June 2011."
+    now: "Intel"
+
+  - name: "Mark Keck"
+    type: "Ph.D. student"
+    descr: "Ph.D. Thesis: \"Occlusion Recovery and Reasoning for 3D Surveillance\", August 2009."
+    now: "BAE"
+  
+  - name: "Karl Salva"
+    type: "B.S. student"
+    descr: "Undergraduate resesarch assistant. Graduated March 2009."
+    now: ~
+
+  - name: "Ambrish Tyagi"
+    type: "Ph.D. student"
+    descr: "Ph.D. Thesis: \"Layered Tracker Switching for Visual Surveillance\", August 2008."
+    now: "STI-Omron Scientific Technologies"
+
+  - name: "Vinay Sharma"
+    type: "Ph.D. student"
+    descr: "Ph.D. Thesis: \"Simulatneous Obejct Detection and Segmentation using Top-down and Bottom-up Processing\", November 2007."
+    now: "Texas Instruments"
+
+  - name: "Hui Gao"
+    type: "Ph.D. student"
+    descr: "Ph.D. Thesis: \"Extracting Key Features for Analysis and Recognition in Computer Vision\", February 2006."
+    now: "Microsoft"
+
+  - name: "Alex Morison"
+    type: "M.S. student"
+    descr: "M.S. Thesis: \"An Adaptive Focus-of-Attention Model for Video Surveillance and Monitoring\", August 2006."
+    now: "OSU/AFRL"
+
+  - name: "Vignesh Kannappan"
+    type: "M.S. student"
+    descr: "M.S. Thesis: \"Automatic Temporal Segmentation of Human Actions\", June 2003."
+    now: "Microsoft"
+
+  - name: "Stephanie Taylor"
+    type: "M.S. student"
+    descr: "M.S. Thesis: \"Computer Analysis and Recognition of Walking Movements\", June 2002."
+    now: ~
+
+  - name: "Robin Tan"
+    type: "B.S. student"
+    descr: "B.S. Honors Thesis: \"Human-Content Video Coding\", March 2002."
+    now: ~
+
+

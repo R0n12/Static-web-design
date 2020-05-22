@@ -1,0 +1,30 @@
+Created by Lang Xu, 2/28/2020
+
+Test plan for Awards and Media page
+
+- Navigation Bar is visible
+	- HOME links to the front page
+	- PUBLICATION links to the publication page
+	- TEACHING Links to the teaching page
+	- PEOPLE refreshes the page
+	- AWARDS/MEDIA links the Awards/media page
+
+- website elements were arranged appropirately
+
+- website title is visible in the header
+
+- website footer is visible
+
+- References to tv/video, prints, radio and awards were presented in cards
+
+- each card changes shadow when were hovered over
+
+- no overlapping between each card
+
+- references and relevant information are aligned to the center and are visible
+
+- page title was correct on the browser tab
+
+- section titles are visible just above each sections
+
+- comfortable and reasonable color choices

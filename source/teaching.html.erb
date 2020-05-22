@@ -1,0 +1,45 @@
+---
+title: Teaching
+css: stylesheets/card.css
+---
+
+<%# File Created on 2/26/20 by Jas Bawa %>
+<%# File edited on 2/28/20 by Jas Bawa to add HTML portion of page %>
+
+<% require_relative '../rubyfiles/TeachingWebScraping.rb' %>
+<% require 'mechanize' %>
+<%#Gets arrays of the years and list items and declares variables %>
+<% years = list_of_years %>
+<% items = list_of_items %>
+<% index = 0; card_count = 0 %>
+<div id="header">
+  <h1>Teaching</h1>
+</div>
+<%#Iterates by year %>
+<%years.each do |year| %>
+  <% if card_count == 0%>
+    <div class = "row">
+  <%end %>
+      <div class="card">
+        <div class="container">
+          <h3><b><%= year.text %></b></h3>
+          <%#Gets the set of list items for the current iterative year and then iterates through them %>
+          <% current_year_items = items[index].css("tr").css("td").css("ul").css("li") %>
+          <%current_year_items.each do |course| %>
+            <p><%= course.text %></p>
+          <% end %>
+        </div>
+      </div>
+  <%#Updates variables and adds a break to prevent more than 3 cards in a row %>
+  <% index += 1 %>
+  <% card_count += 1 %>
+  <% if card_count == 3%>
+    <%card_count = 0 %>
+    <br>
+    </div>
+  <%end %>
+<% end %>
+<%#Adds a close tag to div if it wasn't closed in the loop %>
+  <% unless card_count == 0%>
+    </div>
+  <%end %>

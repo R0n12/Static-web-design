@@ -1,0 +1,15 @@
+File Created 2/28/2020 by Daniel Lim
+
+Test Plan for Intro, nav, footer
+
+- Navigation Bar is visible in all pages
+
+- Navigation Bar is clickable and when clicked, it goes to that page
+	
+- Photo of Professor James W. Davis is visible with the contact info and location
+
+- Education, Appointment, Introduction is visible below the photo and information
+
+- Footer is visible
+ 
+

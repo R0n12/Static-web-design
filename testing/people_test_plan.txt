@@ -1,0 +1,30 @@
+File Created 2/28/2020 by Juhee Park
+
+Test Plan for People.html
+
+- Navigation Bar is visible
+	- HOME links to the front page
+	- PUBLICATION links to the publication page
+	- TEACHING Links to the teaching page
+	- PEOPLE refreshes the page
+	- AWARDS/MEDIA links the Awards/media page
+
+- Website title is visible in the header (James W. Davis)
+
+- Footer is visible
+
+- Page Title is visible in the browser tab ("People")
+
+- Page Title is visible under the Website Title, with a darker tan banner.
+
+- Body is a tan color.
+
+- Each person's information is displayed in a card.
+
+- Each card has a shadow.
+
+- Hovering over a card darkens the shadow.
+
+- Current students are displayed, then Alumni (scroll)
+
+- Each name is bolded and underlined.

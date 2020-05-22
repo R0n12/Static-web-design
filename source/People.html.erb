@@ -1,0 +1,50 @@
+---
+title: "People"
+css: stylesheets/people.css
+---
+
+<!--
+Project 4 - Groovy Ruby
+People.hrml.erb
+File created 2/24/2020 by Juhee Park
+Edited 2/28/2020 by Juhee Park: use YAML file and ruby code to loop
+-->
+
+<div id="header">
+	<h1 id="title">People</h1>
+</div>
+
+<br>
+
+<h1 class="people_type">Current Students</h1>
+
+<%# Create a card for each "current" student, displaying name and degree %>
+<% data.people.current.each do |p| %>
+<div class="card">
+	<div class ="container">
+		<p class="person"><u><%= p.name %></u>, <%= p.type %></p>
+	</div>
+</div>
+<% end %>
+
+<br>
+<h1 class="people_type">Alumni</h1>
+
+<%# Create a card for each "alumni" student, displaying name, degree,
+ thesis/project, and workplace %>
+<% data.people.alumni.each do |p| %>
+<div class="card">
+	<div class="container">
+		<p class="person"><u><%= p.name %></u>, <%= p.type %></p>
+		<%# If description and "Now at" exists, print it %>
+	    <% if p.descr %>
+	    <p class="descr"><%= p.descr %>
+	    	<% if p.now %>
+	    	<br><br>Now at <%= p.now %>.</p>
+	    	<% end %>
+	    <% end %>
+	</div>
+</div>
+<% end %>
+
+

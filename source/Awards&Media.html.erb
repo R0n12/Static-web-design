@@ -1,0 +1,83 @@
+---
+title: Media & Awards
+css: stylesheets/awards_media.css
+---
+
+<%# 
+Created by Lang Xu 2/27/2020, media & awards web page
+Edited by Lang Xu 2/28/2020, employed embedded ruby codes 
+%>
+
+<%# Frontmatters to ensure css compliance and title compatibility %>
+
+<div id="header">
+  <h1 id="title">Awards and Media</h1>
+</div>
+
+<div class = "media_press">
+<h2>Media & Press</h2>
+
+        <div class = "info_deck">
+            <h3>TV/Video</h3>
+
+            <%# loop through each list and print out according contents %>
+            <% data.media_awards.media_source.length.times do |i| %>
+            <div class = "info_card">
+            <p><b><%= data.media_awards.media_source[i] %></b></p>
+            <%= data.media_awards.media_title[i] %>
+            </div>
+            <% end %>
+
+        </div>
+
+        <div class = "info_deck">
+            <h3>Radio</h3>
+            <% data.media_awards.radio_source.length.times do |i| %>
+            <div class = "info_card">
+            <p><b><%= data.media_awards.radio_source[i] %></b></p>
+            <%= data.media_awards.radio_title[i] %>
+            </div>
+            <% end %>
+        </div>
+
+        <div class = "info_deck">
+            <h3>Print</h3>
+            <% data.media_awards.prints_source.length.times do |i| %>
+            <div class = "info_card">
+            <p><b><%= data.media_awards.prints_source[i] %></b></p>
+            <%= data.media_awards.prints_title[i] %>
+
+            <%# don't employ helper methods to generate links if there are no links %>
+            <% if data.media_awards.prints_pdf_link[i] != nil %>
+            <%= link_to '[PDF]', data.media_awards.prints_pdf_link[i] %>
+            <% end %>
+
+            <% if data.media_awards.prints_web_link[i] != nil %>
+            <%= link_to '[WEB]', data.media_awards.prints_web_link[i] %>
+            <% end %>
+
+            </div>
+            <% end %>
+        </div>
+</div>
+
+<div class = "awards_class">
+<h2>Awards</h2>
+
+        <div class = "info_deck">
+            <h3>Noteworthy</h3>
+
+            <% data.media_awards.awards_source.length.times do |i| %>
+            <div class = "info_card">
+            <p><b><%= data.media_awards.awards_title[i] %></b></p>
+            <%= data.media_awards.awards_source[i] %>
+            </div>
+            <% end %>
+
+
+        </div>
+
+</div>
+
+            
+    

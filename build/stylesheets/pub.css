@@ -1,0 +1,30 @@
+/* File Created on 2/28/2020 by Ern Chi Khoo 
+Style sheet for Publications.html.erb */
+#header {
+  height: 70px;
+  background-color: #d2be99;
+  padding: 20px; }
+
+.pub-titles {
+  font-weight: bold;
+  font-size: 20px; }
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  background: #d4c6ad; }
+
+.card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.container {
+  padding: 2px 16px; }
+
+h1 {
+  text-align: center; }

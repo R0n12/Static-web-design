@@ -1,0 +1,198 @@
+# Created by Lang Xu 2/27/2020
+# YAML file for structure declaration to enable embedded ruby coding in erb files
+
+# source list for media
+media_source:
+ - "NPR"
+ - "NPR"
+ - "NPR"
+ - "iMix, Big10 TV Network"
+ - "10TV news (CBS)"
+ - "OSU Video"
+ - "OSU Video"
+ - "Frontline"
+ - "Fox-28/ABC-6 News"
+ - "Fox-28/ABC-6 News"
+ - "NBC-4 News"
+ - "CBS-10 News"
+ - "OSU Video"
+
+# title list for media
+media_title:
+ - "(WOSU) Interview on \"All Sides with Ann Fisher\" (aired live 02/12/19)"
+ - "(WOSU) Interview on \"All Sides with Ann Fisher\" (aired live 01/20/15)"
+ - "(WOSU) Interview on \"All Sides with Ann Fisher\" (aired live 07/03/14)"
+ - "\"Smart Surveillance\" (initially aired 7/28/09)"
+ - "Smart Technology Being Used at Ohio State"
+ - "\"Better Eyes\" (released January 9, 2009)"
+ - "\"'Smart' Surveillance System May Tag Suspicious or Lost People\" (released 12/08)"
+ - "\"Spying on the Home Front\" (Aired 05/15/07)"
+ - "\"They're Watching You\" (Aired 05/10/04)"
+ - "Interview on thermal technology (Aired 05/08/03, 05/09/03)"
+ - "(aired 05/09/03)"
+ - "(aired 05/04/03)"
+ - "Researcher developing video technology for surveillance:"
+
+# source list for radio
+radio_source:
+ - NPR
+ - NPR
+ - NPR
+ - AAAS Science Update
+
+# title list for radio
+radio_title:
+ - "(WOSU) Interview on \"All Sides with Ann Fisher\" (aired live 02/12/19)"
+ - "(WOSU) Interview on \"All Sides with Ann Fisher\" (aired live 01/20/15)"
+ - "(WOSU) Interview on \"All Sides with Ann Fisher\" (aired live 07/03/14)"
+ - "radio feature, Internet Video: \"A new technology could make watching video on the Internet less frustrating\" (aired January 12, 2005)"
+
+# source list for prints
+prints_source:
+ - Security Dealer & Integrator
+ - Popular Mechanics
+ - "The Why Files: the Science Behind the News"
+ - Electrical Contractor Magazine
+ - OSU Alumni Magazine
+ - OSU News In Engineering
+ - SPIE Newsroom
+ - Photonics Spectra
+ - MSNBC
+ - Columbus Dispatch
+ - onCampus
+ - UWeekly
+ - The Lantern
+ - The Lantern
+ - OSU News Release
+ - The Economist
+ - OSU CSE Newsletter
+ - OSU Alumni Magazine
+ - OSU News In Engineering
+ - ACM TechNews
+ - OSU News Release
+ - Homeland Security & Defense
+ - Columbus Business First
+
+# title list for prints
+prints_title:
+ - "\"Eye on Troublesome Patterns\" May 25, 2011"
+ - "\"PM's Guide to the Best in Home Surveillance Gear\" April 6, 2011"
+ - "\"Video Surveillance: Who is Watching You, and Why\" March 11, 2010"
+ - "\"Surveillance with Smarts\" February 2010, p. 50"
+ - "Research Report Article, \"Eye in the Sky\",  May/June, 2009, page 30"
+ - "Research Update article, \"Intelligent Surveillance Could Aid Law Enforcement\", Vol. 81, No. 1, 2009"
+ - "Electronic Imaging & Signal Processing,\"A Feature-Selection Approach to Fusing Electro-Optical and IR Imagery\" (February 25, 2009)"
+ - "Tech News, \"Neighborhood Watch, Sans Neighbors\" (February, 2009; pp. 18-20)"
+ - "Technology & Science, \"Computer has eye for Suspicious Behavior\" (January 26, 2009)"
+ - "\"Computers Might Spot People up to no Good\" (January 24, 2009)"
+ - "Discovery Briefs, \"'Smart' Surveillance System May Tag Suspicious or Lost People\" (January 8, 2009)"
+ - "\"Big Brother No, Smart Camera Yes\" (February 18, 2009)"
+ - "\"Under Surveillance\" (January 27, 2009)"
+ - "\"'Smart' Cameras are Watching You\" (January 9, 2009)"
+ - "\"'Smart' Surveillance System May Tag Suspicious or Lost People\" (released 12/08)"
+ - "Science & Technology section,Surveillance Technology: \"If Looks Could Kill\", October 23, 2008"
+ - "Focus on Research Article, Jim Davis:\"Vision for the Future of Surveillance\",  Autumn 2007, pages 2-3"
+ - "Research Report Article, \"Watch the Hands and Face\",  May/June, 2005, page 8"
+ - "Research Update article,\"Advancing Technologies for Internet Video\", Vol. 77, No. 1, Spring 2005"
+ - "Feature, \"Researchers Find Way to Make Internet Video More Appealing\", Vol. 6, Issue 734, December 22, 2004"
+ - "\"Researchers find way to make internet video more appealing\" (released 12/21/04)"
+ - "\"HSARPA seeking video software technology to interpret complex surveillance stream\", Vol. 3, No. 16, April 21, 2004"
+ - "Tech Now feature article, Hot on Surveillance:\"Thermal technology grows in popularity, importance in post-911 world\", Vol. 20, No. 7, Oct. 17, 2003"
+
+# pdf link list for prints
+prints_pdf_link:
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/SDI-2011.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/PM-2011.pdf"
+ - ~
+ - ~
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/alumni09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/nie811.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Publications/SPIE09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/PhotonicsSpectra09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/MSNBC-09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/dispatch09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/onCampus-09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/UWeekly-09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/Lantern09b.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/Lantern09.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/OSU-press-08-print.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/TheEconomist08.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/jwdavis-research-cse-07.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/OSAM05.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/NIE_77.1_Spring_2005.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/ACMNewsService.pdf"
+ - ~
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/HSARPA.pdf"
+ - "http://web.cse.ohio-state.edu/~davis.1719/Media/busFirst03.pdf"
+
+# web link list for prints
+prints_web_link:
+ - ~
+ - "http://www.popularmechanics.com/technology/gadgets/reviews/pms-guide-to-the-best-in-home-surveillance-gear"
+ - "http://whyfiles.org/323cyberspies/index.php?g=2.txt"
+ - ~
+ - ~
+ - ~
+ - "http://spie.org/x33833.xml?highlight=x2410&amp;ArticleID=x33833"
+ - ~
+ - "http://www.msnbc.msn.com/id/28566179/"
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+ - ~
+
+# title list for awards
+awards_title:
+ - Ruth and Joel Spira Teaching Award
+ - Innovators Award
+ - Polarity Maximizer & Audiomere
+ - Full Professor
+ - Lumley Research Award
+ - Chair
+ - Workshop co-Chair
+ - Best Paper Award
+ - IEEE Computer Vision and Pattern Recognition Reviewer Award
+ - CSE Teaching Award
+ - Co-Program Chair
+ - Co-General Chair
+ - Co-Chair
+ - Associate Professor with Tenure
+ - Guest Editor
+ - Associate Editor
+ - Lumley Research Award
+ - Benchmark and Website Chair
+ - NSF Career Award
+ - Lockheed-Martin Best Paper Award
+
+# source list for awards
+awards_source:
+ - 2019 Lutron Electronic
+ - 2015 OSU College of Engineering
+ - Commecial software
+ - Promoted, September 2013
+ - 2012 OSU College of Engineering
+ - Computer Committee, 2012 - current.
+ - IEEE Conference on Computer Vision and Pattern Recognition (2014)
+ - "\"Attention-based Target Localization using Multiple Instance Learning\", International Symposium on Visual Computing, November 2010"
+ - "2010"
+ - 2009-2010.
+ - IEEE International Conference on Advanced Video and Signal based Surveillance (Sept. 2010)
+ - IEEE Workshop on Motion and Video Computing (Dec. 2009)
+ - IEEE Workshop on Object Tracking and Classification in and Beyond the Visible Spectrum (OTCBVS), June 22, 2006.
+ - Promoted October 2005
+ - (w/ Riad Hammoud) for CVIU Special Issue on Advances in Vision Algorithms and Systems Beyond the Visible Spectrum
+ - Appointed for Machine Vision and Applications journel (May 2005)
+ - 2005 OSU College of Engineering
+ - IEEE Workshop on Object Tracking and Classification in and Beyond the Visible Spectrum (OTCBVS), June 2005.
+ - March 2003
+ - "'A Three-Mode Expressive Feature Model of Action Effort',IEEE Workshop on Motion and Video Computing, Dec. 5-6, 2002, pp. 139-144"
